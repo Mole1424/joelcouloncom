@@ -7,6 +7,9 @@
     <!-- css -->
     <link rel="stylesheet" href="/static/css/main.css">
 
+    <!-- phosphor icons -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css"/>
+
     <!--favicon stuff -->
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96"/>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
@@ -28,20 +31,47 @@
     <meta name="keywords" content="Joel Coulon, Joel, Coulon, Software Engineer, Developer, Programmer"/>
 </head>
 <body>
-    <div class="hero">
-        <div class="hero-left">
-            <img src="/static/img/me.webp" alt="Me (with dog)" class="hero-image"/>
+    <!-- navbar -->
+    <nav class="nav">
+        <div class="nav-left">
+            <a href="/" class="nav-logo-link">
+                <img src="/static/img/me.webp" alt="Logo" class="nav-logo"/>
+            </a>
+            <a href="/" class="nav-link">Home</a>
+            <a href="#about-me" class="nav-link">About Me</a>
         </div>
-        <div class="hero-right">
-            <h1 class="hero-title">Hi I'm Joel 👋</h1>
-            <p class="hero-lead">I make computer go beep boop (professionally!)</p>
+        <div class="nav-right">
+            <a href="https://www.instagram.com/joel1coulon/" class="nav-link" target="_blank" rel="noopener noreferrer">
+                <i class="ph ph-instagram-logo"></i>
+            </a>
+            <a href="https://github.com/Mole1424" class="nav-link" target="_blank" rel="noopener noreferrer">
+                <i class="ph ph-github-logo"></i>
+            </a>
+            <!-- get obfuscated idiot -->
+            <a href="mailto:&#104;&#101;&#108;&#108;&#111;&commat;&#106;&#111;&#101;&#108;&#99;&#111;&#117;&#108;&#111;&#110;&period;&#99;&#111;&#109;" class="nav-link" target="_blank" rel="noopener noreferrer">
+                <i class="ph ph-envelope"></i>
+            </a>
         </div>
-    </div>
-    <div class="content">
-        <div class="about-me">
-            <h2 class="about-me-title">About Me</h2>
-            <p class="about-me-text">I'm a software engineer with a BSc (Hons) from Warwick University. I have since started working in the big wide world (scary!).</p>
+    </nav>
+    <main>
+        <!-- hero (front page) section -->
+        <div class="hero">
+            <div class="hero-left">
+                <img src="/static/img/me.webp" alt="Me (with dog)" class="hero-image"/>
+            </div>
+            <div class="hero-right">
+                <h1 class="hero-title">Hi I'm Joel 👋</h1>
+                <p class="hero-lead">I make computer go beep boop (professionally!)</p>
+            </div>
         </div>
-    </div>
+        <div class="content">
+            <!-- about me -->
+            <div class="about-me" id="about-me">
+                <h2 class="about-me-title">About Me</h2>
+                <p class="about-me-text">I'm a software engineer with a BSc (Hons) from Warwick University. I have since started working in the big wide world (scary!).</p>
+            </div>
+            <!-- blog? -->
+        </div>
+    </main>
 </body>
 </html>
