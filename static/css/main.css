@@ -71,6 +71,10 @@ body {
     .nav-left {
         padding-left: 10px;
     }
+
+    .nav-link i {
+        font-size: 1.5rem;
+    }
 }
 
 .hero {
